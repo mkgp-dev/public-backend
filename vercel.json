@@ -1,0 +1,14 @@
+{
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "functions" : {
+        "api/**/*.js": {
+            "maxDuration": 10
+        }
+    },
+    "rewrites": [
+        { "source": "/", "destination": "/api" },
+        { "source": "/api", "destination": "/api/health" },
+        { "source": "/api/owm/weather", "destination": "/api/openweathermap/weather" },
+        { "source": "/api/owm/forecast", "destination": "/api/openweathermap/forecast" }
+    ]
+}
