@@ -1,11 +1,14 @@
 # public-backend
 Designed to securely hide and manage API keys, preventing public exposure on the client side.
 
+> [!IMPORTANT]
+> This project is now **discontinued** because I have created my own private backend. It remains as a reference for the lessons I learned from The Odin Project, and it will now be kept as an archive repository since I will no longer be updating it.
+
 > [!WARNING]
-> Please **do not use my back-end**, as it uses a **free-tier plan** with limited requests and may easily hit its rate limit.
+> ~~Please **do not use my back-end**, as it uses a **free-tier plan** with limited requests and may easily hit its rate limit.~~
 
 > [!NOTE]
-> This backend will be updated if future [The Odin Project](https://www.theodinproject.com/) assignments require APIs with hidden keys.
+> ~~This backend will be updated if future [The Odin Project](https://www.theodinproject.com/) assignments require APIs with hidden keys.~~
 
 ## Features
 - Deployed on [Vercel](https://vercel.com/) using a serverless architecture for simplicity and scalability
